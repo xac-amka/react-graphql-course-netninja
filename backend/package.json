@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "GraphQL and express server",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon app",
+    "start": "node app"
+  },
+  "keywords": [],
+  "author": "Amkaaa",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-graphql": "^0.11.0",
+    "graphql": "^15.3.0",
+    "lodash": "^4.17.20",
+    "mongoose": "^5.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "react-graphql-course",
+  "version": "1.0.0",
+  "description": "start front and back at same time",
+  "main": "index.js",
+  "scripts": {
+    "start": "pwd && concurrently \"cd ./frontend && npm run start\"  \"cd ./backend && npm run server\" "
+  },
+  "keywords": [],
+  "author": "Amkaaa",
+  "license": "MIT"
+}
