@@ -8,5 +8,11 @@
   },
   "keywords": [],
   "author": "Amkaaa",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "lodash.flowright": "^3.5.0"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0"
+  }
 }
