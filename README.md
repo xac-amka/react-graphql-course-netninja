@@ -71,4 +71,9 @@
       "start": "pwd && concurrently \"cd ./frontend && npm run start\"  \"cd ./backend && npm run server\" "
    },
  ```
+ 
+ ## References
+  - [react-apollo](https://github.com/apollographql/react-apollo)
+  - [howtographql-react&apollo](https://www.howtographql.com/react-apollo/0-introduction/)
+  - []()
 
