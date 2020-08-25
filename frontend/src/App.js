@@ -3,16 +3,14 @@ import {ApolloClient, InMemoryCache, ApolloProvider} from '@apollo/client'
 
 //  components and style
 import './App.css';
-import BookList from './components/BookList';
-import AuthorList from './components/AuthorList';
+import BookList from './components/BookList.jsx';
+import AddBook from './components/AddBook.jsx';
 
 // apollo client setup
 const client = new ApolloClient({
   uri: 'http://localhost:5000/graphql',
   cache: new InMemoryCache()
 })
-
-console.log(client);
 
 class App extends Component {
   render(){
@@ -21,7 +19,7 @@ class App extends Component {
         <div id="main">
           <h1>MBook ReadList</h1>
           <BookList />
-          <AuthorList />
+          <AddBook />
         </div>
       </ApolloProvider>
     );
